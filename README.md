@@ -1,6 +1,12 @@
 # Stellar Blade Combat Assistant
 
-`StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade (Steam Build `24463856`). It provides two independent combat-assistance switches:
+## v1.0.13
+
+- Broader automatic compatibility across game versions, with clearer connection and incompatibility messages.
+- Improved timing for lightning and similar area attacks, with less interference with attack input.
+- Updated interface with 3DM and Patreon links.
+
+`StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides two independent combat-assistance switches:
 
 - **Auto Guard** — automatic Guard and Perfect Parry when the game accepts the action.
 - **Auto Dodge** — automatic Perfect Dodge assistance.
@@ -16,7 +22,7 @@ When Blink or Repulse is unlocked, Auto Dodge can use the corresponding blue or 
 
 Turning both switches off or closing the trainer stops the assistance session. No Vortex setup or file copy into the game directory is required, and no separate .NET, Python, or other runtime installation is needed.
 
-The interface supports English and Simplified Chinese, with light and dark themes. The trainer is intended for Steam Build `24463856`; a future game update may require a new compatible release.
+The interface supports English and Simplified Chinese, with light and dark themes. Compatibility is checked automatically across game versions. Major game updates may still require a trainer update.
 
 Author: Nyxeon (`chenzilin100`)
 
