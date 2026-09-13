@@ -1,10 +1,9 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.13
+## v1.0.14
 
-- Broader automatic compatibility across game versions, with clearer connection and incompatibility messages.
-- Improved timing for lightning and similar area attacks, with less interference with attack input.
-- Updated interface with 3DM and Patreon links.
+- Added automatic parry support for Tachy / Fusion mode, including the earring-triggered Fusion variant.
+- Improved automatic dodge support when switching forms. No manual form selection is needed.
 
 `StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides two independent combat-assistance switches:
 
