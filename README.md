@@ -1,25 +1,26 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.14
+## v1.0.15
 
-- Added automatic parry support for Tachy / Fusion mode, including the earring-triggered Fusion variant.
-- Improved automatic dodge support when switching forms. No manual form selection is needed.
+- Auto Blink / Repulse now has its own switch, so you can automate blue/purple responses while dodging manually.
+- Enabling all three features retains the previous full-assistance behavior.
 
-`StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides two independent combat-assistance switches:
+`StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides three independent combat-assistance switches:
 
 - **Auto Guard** — automatic Guard and Perfect Parry when the game accepts the action.
-- **Auto Dodge** — automatic Perfect Dodge assistance.
+- **Auto Dodge** — automatic ordinary Perfect Dodge assistance.
+- **Auto Blink / Repulse** — automatic blue Blink and purple Repulse responses.
 
-When Blink or Repulse is unlocked, Auto Dodge can use the corresponding blue or purple skill response. Those skills must be unlocked in the game before they can be used.
+Enable Auto Blink / Repulse to use the corresponding blue or purple skill response. Those skills must be unlocked in the game before they can be used.
 
 ## Use
 
 1. Download and extract the release ZIP.
 2. Run `StellarBladeTrainer.exe` outside the game's installation directory.
 3. Start Stellar Blade, or start the trainer first; either order is supported.
-4. Enable Auto Guard, Auto Dodge, or both. The trainer connects automatically after a switch is enabled.
+4. Enable Auto Guard, Auto Dodge, Auto Blink / Repulse, or any combination. The trainer connects automatically after a switch is enabled.
 
-Turning both switches off or closing the trainer stops the assistance session. No Vortex setup or file copy into the game directory is required, and no separate .NET, Python, or other runtime installation is needed.
+Turning all three switches off or closing the trainer stops the assistance session. No Vortex setup or file copy into the game directory is required, and no separate .NET, Python, or other runtime installation is needed.
 
 The interface supports English and Simplified Chinese, with light and dark themes. Compatibility is checked automatically across game versions. Major game updates may still require a trainer update.
 
