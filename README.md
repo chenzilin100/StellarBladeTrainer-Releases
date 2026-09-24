@@ -1,7 +1,9 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.15
+## v1.0.16
 
+- Fixed an issue where the Revenge skill could not be used while automatic dodge or defence was enabled.
+- Fixed dodge not working against Juggernaut's shock waves and specific Democrawler attacks.
 - Auto Blink / Repulse now has its own switch, so you can automate blue/purple responses while dodging manually.
 - Enabling all three features retains the previous full-assistance behavior.
 
