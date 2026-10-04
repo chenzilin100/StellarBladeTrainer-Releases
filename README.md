@@ -1,9 +1,9 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.15
+## v1.0.16
 
-- Auto Blink / Repulse now has its own switch, so you can automate blue/purple responses while dodging manually.
-- Enabling all three features retains the previous full-assistance behavior.
+- Improved compatibility with stance and moveset mods, including Scarlet and Raven Stances 1.1, with automatic detection of new parry and ordinary dodge skills.
+- Improved parry and dodge recognition during stance changes.
 
 `StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides three independent combat-assistance switches:
 
