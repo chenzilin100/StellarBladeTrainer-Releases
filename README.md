@@ -1,9 +1,10 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.16
+## v1.0.17
 
-- Improved compatibility with stance and moveset mods, including Scarlet and Raven Stances 1.1, with automatic detection of new parry and ordinary dodge skills.
-- Improved parry and dodge recognition during stance changes.
+- Fixed a regression in v1.0.16 that could prevent automatic parries against projectiles and melee attacks, while retaining stance and moveset mod support.
+- Replaced the trainer's 3DM update link with Afdian.
+
 
 `StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides three independent combat-assistance switches:
 
