@@ -2,6 +2,8 @@
 
 ## v1.0.17
 
+Downloads: [English ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-en-US.zip) · [中文 7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-zh-CN.7z)
+
 - Fixed a regression in v1.0.16 that could prevent automatic parries against projectiles and melee attacks, while retaining stance and moveset mod support.
 - Replaced the trainer's 3DM update link with Afdian.
 
