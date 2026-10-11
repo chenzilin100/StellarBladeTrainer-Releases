@@ -1,12 +1,16 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.17
+## v1.0.18
 
-Downloads: [English ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-en-US.zip) · [中文 7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-zh-CN.7z)
+Fixed a connection failure caused by a damaged previous-session record. The trainer now recovers automatically.
 
-- Fixed a regression in v1.0.16 that could prevent automatic parries against projectiles and melee attacks, while retaining stance and moveset mod support.
-- Replaced the trainer's 3DM update link with Afdian.
+Choose a version below. The latest three stable releases are retained for rollback.
 
+| Version | English | 中文 |
+| --- | --- | --- |
+| **1.0.18 — Recommended** | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-zh-CN.7z) |
+| 1.0.17 | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-zh-CN.7z) |
+| 1.0.16 | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.16/StellarBladeTrainer-1.0.16-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.16/StellarBladeTrainer-1.0.16-Release-zh-CN.7z) |
 
 `StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides three independent combat-assistance switches:
 
