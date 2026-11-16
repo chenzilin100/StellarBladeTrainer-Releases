@@ -1,16 +1,18 @@
 # Stellar Blade Combat Assistant
 
-## v1.0.18
+## v1.0.20
 
-Fixed a connection failure caused by a damaged previous-session record. The trainer now recovers automatically.
+- Updated for game version 1.5.0, with improved defense command discovery and input handling for stance and moveset mods.
+- Added issue reporting and update checks. Send logs from the trainer and copy the report ID after sending.
+- Updated the Combat Assist, Settings and About pages while keeping all three feature switches independent.
 
 Choose a version below. The latest three stable releases are retained for rollback.
 
 | Version | English | 中文 |
 | --- | --- | --- |
-| **1.0.18 — Recommended** | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-zh-CN.7z) |
+| **1.0.20 — Recommended** | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.20/StellarBladeTrainer-1.0.20-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.20/StellarBladeTrainer-1.0.20-Release-zh-CN.7z) |
+| 1.0.18 | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.18/StellarBladeTrainer-1.0.18-Release-zh-CN.7z) |
 | 1.0.17 | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.17/StellarBladeTrainer-1.0.17-Release-zh-CN.7z) |
-| 1.0.16 | [ZIP](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.16/StellarBladeTrainer-1.0.16-Release-en-US.zip) | [7z](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/download/v1.0.16/StellarBladeTrainer-1.0.16-Release-zh-CN.7z) |
 
 `StellarBladeTrainer.exe` is a standalone Windows x64 trainer for Stellar Blade. It provides three independent combat-assistance switches:
 
@@ -31,10 +33,18 @@ Turning all three switches off or closing the trainer stops the assistance sessi
 
 The interface supports English and Simplified Chinese, with light and dark themes. Compatibility is checked automatically across game versions. Major game updates may still require a trainer update.
 
+Use Report an issue to send an optional description. Recent logs are attached automatically, and you can copy the report ID after sending. Use Check for updates to see whether a newer release is available and open its release page.
+
 Author: Nyxeon (`chenzilin100`)
 
 [Download the release](https://github.com/chenzilin100/StellarBladeTrainer-Releases/releases/latest)
 
-The download opens in English by default. Your language choice is saved after you change it in Settings.
+The English ZIP starts in English. Your language choice is saved in Settings.
 
 ![English interface](images/ui-en.png)
+
+## Previous updates
+
+### v1.0.18
+
+Fixed a connection failure caused by a damaged previous-session record. The trainer now recovers automatically.
